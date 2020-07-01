@@ -19,3 +19,6 @@ jobs:
         uses: crazy-max/ghaction-docker-buildx@v1
 
       - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Prepare Docker build
