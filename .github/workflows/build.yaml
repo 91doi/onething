@@ -26,3 +26,4 @@ jobs:
         run: |
           function version { echo "$@" | awk -F. '{ printf("%d%03d%03d%03d\n", $1,$2,$3,$4); }'; }
           BITCOIN_GOLD_VERSION=${{matrix.version}}
+          LATEST_BITCOIN_GOLD_MAJOR_VERSION=$(ls  | grep 0 | sort -n | tail -n 1)
