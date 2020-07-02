@@ -23,3 +23,6 @@ jobs:
 
       - name: Prepare Docker build
         id: prepare
+        run: |
+          function version { echo "$@" | awk -F. '{ printf("%d%03d%03d%03d\n", $1,$2,$3,$4); }'; }
+          BITCOIN_GOLD_VERSION=${{matrix.version}}
