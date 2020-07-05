@@ -29,3 +29,4 @@ jobs:
           LATEST_BITCOIN_GOLD_MAJOR_VERSION=$(ls  | grep 0 | sort -n | tail -n 1)
           PUSH=false
           REPO=uphold/bitcoin-gold
+          TAGS=()
