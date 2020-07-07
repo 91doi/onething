@@ -30,3 +30,4 @@ jobs:
           PUSH=false
           REPO=uphold/bitcoin-gold
           TAGS=()
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
