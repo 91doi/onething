@@ -31,3 +31,5 @@ jobs:
           REPO=uphold/bitcoin-gold
           TAGS=()
           if [[ $GITHUB_REF == refs/tags/* ]]; then
+            TAG=${GITHUB_REF#refs/tags/}
+            PUSH=true
