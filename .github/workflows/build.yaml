@@ -33,3 +33,4 @@ jobs:
           if [[ $GITHUB_REF == refs/tags/* ]]; then
             TAG=${GITHUB_REF#refs/tags/}
             PUSH=true
+            if [[ ${BITCOIN_GOLD_VERSION} == *"alpine"* ]]; then
