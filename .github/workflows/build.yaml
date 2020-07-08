@@ -34,3 +34,5 @@ jobs:
             TAG=${GITHUB_REF#refs/tags/}
             PUSH=true
             if [[ ${BITCOIN_GOLD_VERSION} == *"alpine"* ]]; then
+              TAGS+=("$REPO:$TAG-alpine")
+            else
