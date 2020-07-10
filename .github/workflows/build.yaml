@@ -36,3 +36,5 @@ jobs:
             if [[ ${BITCOIN_GOLD_VERSION} == *"alpine"* ]]; then
               TAGS+=("$REPO:$TAG-alpine")
             else
+              TAGS+=("$REPO:$TAG")
+            fi
