@@ -44,3 +44,4 @@ jobs:
               exit 0
             fi
           else
+            TAGS=("$REPO:${BITCOIN_GOLD_VERSION/\//-}")
