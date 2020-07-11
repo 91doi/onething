@@ -43,3 +43,4 @@ jobs:
               echo "Skipping build of base image $BITCOIN_GOLD_VERSION/ as ${TAG} is targeted at ${TAG_MAJOR_MINOR}/"
               exit 0
             fi
+          else
