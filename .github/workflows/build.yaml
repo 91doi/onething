@@ -45,3 +45,5 @@ jobs:
             fi
           else
             TAGS=("$REPO:${BITCOIN_GOLD_VERSION/\//-}")
+            if [ $(version ${BITCOIN_GOLD_VERSION}) -ge $(version ${LATEST_BITCOIN_GOLD_MAJOR_VERSION}) ]; then
+              echo "Version $(version ${BITCOIN_GOLD_VERSION}) is greater than or equal to $(version ${LATEST_BITCOIN_GOLD_MAJOR_VERSION}), tagging as latest"
