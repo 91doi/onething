@@ -50,3 +50,4 @@ jobs:
               if [[ ${BITCOIN_GOLD_VERSION} != *"alpine"* ]]; then
                 TAGS+=("$REPO:latest")
               else
+                TAGS+=("$REPO:alpine")
