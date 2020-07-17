@@ -51,3 +51,5 @@ jobs:
                 TAGS+=("$REPO:latest")
               else
                 TAGS+=("$REPO:alpine")
+              fi
+            fi
