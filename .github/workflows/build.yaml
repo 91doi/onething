@@ -53,3 +53,4 @@ jobs:
                 TAGS+=("$REPO:alpine")
               fi
             fi
+            if [ $GITHUB_REF == "refs/heads/master" ]; then
