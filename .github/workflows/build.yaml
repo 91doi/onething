@@ -54,3 +54,4 @@ jobs:
               fi
             fi
             if [ $GITHUB_REF == "refs/heads/master" ]; then
+              PUSH=true
