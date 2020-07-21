@@ -63,3 +63,5 @@ jobs:
           echo ::set-env name=build::true
       - if: env.build == 'true'
         name: Login into Docker Hub
+        env:
+          DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
