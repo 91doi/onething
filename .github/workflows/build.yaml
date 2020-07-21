@@ -61,3 +61,5 @@ jobs:
           echo ::set-output name=push::${PUSH}
           echo ::set-output name=tags::${TAGS[@]}
           echo ::set-env name=build::true
+      - if: env.build == 'true'
+        name: Login into Docker Hub
