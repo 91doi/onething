@@ -69,3 +69,5 @@ jobs:
         run: |
           docker login --username ${DOCKER_HUB_USERNAME} --password ${DOCKER_HUB_PASSWORD}
       - if: env.build == 'true'
+        name: Build Docker image
+        run: |
