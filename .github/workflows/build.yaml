@@ -72,3 +72,6 @@ jobs:
         name: Build Docker image
         run: |
           TAGS=(${{ steps.prepare.outputs.tags }})
+          echo "Build date: ${{ steps.prepare.outputs.build_date }}"
+          echo "Push: ${{ steps.prepare.outputs.push }}"
+          echo "Tags: ${{ steps.prepare.outputs.tags }}"
