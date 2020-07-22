@@ -71,3 +71,4 @@ jobs:
       - if: env.build == 'true'
         name: Build Docker image
         run: |
+          TAGS=(${{ steps.prepare.outputs.tags }})
