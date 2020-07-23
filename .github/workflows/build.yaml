@@ -75,3 +75,5 @@ jobs:
           echo "Build date: ${{ steps.prepare.outputs.build_date }}"
           echo "Push: ${{ steps.prepare.outputs.push }}"
           echo "Tags: ${{ steps.prepare.outputs.tags }}"
+          echo docker buildx build \
+            --output "type=image,push=${{steps.prepare.outputs.push}}" \
