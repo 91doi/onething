@@ -84,3 +84,8 @@ jobs:
             ${{ matrix.version }}/
           docker buildx build \
             --output "type=image,push=${{steps.prepare.outputs.push}}" \
+            --progress=plain \
+            --build-arg "BUILD_DATE=${{ steps.prepare.outputs.build_date }}" \
+            --build-arg "VCS_REF=${GITHUB_SHA::8}" \
+            $(printf "%s" "${TAGS[@]/#/ --tag }" ) \
+            ${{ matrix.version }}/
