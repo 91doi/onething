@@ -92,3 +92,4 @@ jobs:
       - if: env.build == 'true'
         name: Clear Docker credentials
         run: |
+          rm -f ${HOME}/.docker/config.json
