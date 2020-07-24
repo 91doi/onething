@@ -89,3 +89,6 @@ jobs:
             --build-arg "VCS_REF=${GITHUB_SHA::8}" \
             $(printf "%s" "${TAGS[@]/#/ --tag }" ) \
             ${{ matrix.version }}/
+      - if: env.build == 'true'
+        name: Clear Docker credentials
+        run: |
