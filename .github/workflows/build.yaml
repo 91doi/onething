@@ -83,3 +83,4 @@ jobs:
             $(printf "%s" "${TAGS[@]/#/ --tag }" ) \
             ${{ matrix.version }}/
           docker buildx build \
+            --output "type=image,push=${{steps.prepare.outputs.push}}" \
