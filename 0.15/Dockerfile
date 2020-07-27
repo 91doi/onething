@@ -1,1 +1,1 @@
-FROM deb
+FROM debian
