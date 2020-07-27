@@ -1,1 +1,1 @@
-FROM debian:s
+FROM debian:stab
