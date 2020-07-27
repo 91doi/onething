@@ -1,1 +1,1 @@
-FROM debian:stable-sl
+FROM debian:stable-sli
