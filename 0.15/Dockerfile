@@ -1,3 +1,3 @@
 FROM debian:stable-slim
 
-LABEL maintain
+LABEL maintaine
