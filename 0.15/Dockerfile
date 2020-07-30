@@ -1,3 +1,3 @@
 FROM debian:stable-slim
 
-LABEL maintainer.0="João Fonseca 
+LABEL maintainer.0="João Fonseca (@j
