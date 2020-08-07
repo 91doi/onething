@@ -1,4 +1,4 @@
 FROM debian:stable-slim
 
 LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
-  maintainer.1="Pedro 
+  maintainer.1="Pedro B
