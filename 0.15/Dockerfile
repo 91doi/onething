@@ -2,4 +2,4 @@ FROM debian:stable-slim
 
 LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
   maintainer.1="Pedro Branco (@pedrobranco)" \
-  maintainer.2="Rui Marinho (@rui
+  maintainer.2="Rui Marinho (@ruim
