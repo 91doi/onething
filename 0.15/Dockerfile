@@ -5,4 +5,4 @@ LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
   maintainer.2="Rui Marinho (@ruimarinho)"
 
 RUN useradd -r bitcoingold \
-  && apt-get upd
+  && apt-get updat
