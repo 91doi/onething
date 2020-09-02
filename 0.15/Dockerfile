@@ -6,4 +6,4 @@ LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
 
 RUN useradd -r bitcoingold \
   && apt-get update -y \
-  && apt-get install 
+  && apt-get install -y 
