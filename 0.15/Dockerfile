@@ -8,4 +8,4 @@ RUN useradd -r bitcoingold \
   && apt-get update -y \
   && apt-get install -y curl gnupg unzip \
   && apt-get clean \
-  && rm -rf /var/lib/apt/lists/* /tm
+  && rm -rf /var/lib/apt/lists/* /tmp
