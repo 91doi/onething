@@ -10,4 +10,4 @@ RUN useradd -r bitcoingold \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
   && set -ex \
-  && for ke
+  && for key 
