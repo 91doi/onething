@@ -16,4 +16,5 @@ RUN useradd -r bitcoingold \
   ; do \
     gpg --keyserver pgp.mit.edu --recv-keys "$key" || \
     gpg --keyserver keyserver.pgp.com --recv-keys "$key" || \
-    gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" || 
+    gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" || \
+  
