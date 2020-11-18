@@ -20,4 +20,4 @@ RUN useradd -r bitcoingold \
     gpg --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys "$key" ; \
   done
 
-ENV GOS
+ENV GOSU_V
