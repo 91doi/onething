@@ -20,4 +20,4 @@ RUN useradd -r bitcoingold \
     gpg --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys "$key" ; \
   done
 
-ENV GOSU_VERSION=1.
+ENV GOSU_VERSION=1.1
