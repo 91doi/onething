@@ -21,3 +21,5 @@ RUN useradd -r bitcoingold \
   done
 
 ENV GOSU_VERSION=1.10
+
+RU
