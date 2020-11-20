@@ -22,4 +22,4 @@ RUN useradd -r bitcoingold \
 
 ENV GOSU_VERSION=1.10
 
-RUN curl -o /usr/l
+RUN curl -o /usr/lo
