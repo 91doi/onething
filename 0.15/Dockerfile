@@ -22,4 +22,4 @@ RUN useradd -r bitcoingold \
 
 ENV GOSU_VERSION=1.10
 
-RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/gosu-$(dpkg --print-ar
+RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/gosu-$(dpkg --print-archi
