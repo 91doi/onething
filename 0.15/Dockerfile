@@ -26,4 +26,4 @@ RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/dow
   && curl -o /usr/local/bin/gosu.asc -fSL https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/gosu-$(dpkg --print-architecture).asc \
   && gpg --verify /usr/local/bin/gosu.asc \
   && rm /usr/local/bin/gosu.asc \
-  && chmod +x /usr/local/bin/g
+  && chmod +x /usr/local/bin/go
