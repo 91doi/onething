@@ -28,4 +28,5 @@ RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/dow
   && rm /usr/local/bin/gosu.asc \
   && chmod +x /usr/local/bin/gosu
 
-ENV BITCOIN_GOLD_VERSION=0.15.
+ENV BITCOIN_GOLD_VERSION=0.15.2
+E
