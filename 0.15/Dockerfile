@@ -30,4 +30,4 @@ RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/dow
 
 ENV BITCOIN_GOLD_VERSION=0.15.2
 ENV BITCOIN_GOLD_FOLDER_VERSION=0.15.2
-ENV BITCOIN_GOLD_PREFIX=/opt/bitc
+ENV BITCOIN_GOLD_PREFIX=/opt/bitco
