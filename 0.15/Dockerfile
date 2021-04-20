@@ -34,4 +34,4 @@ ENV BITCOIN_GOLD_PREFIX=/opt/bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}
 ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
 ENV PATH=${BITCOIN_GOLD_PREFIX}/bin:$PATH
 RUN curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}-x86_64-linux-gnu.tar.gz \
-  && curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BI
+  && curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BIT
