@@ -37,4 +37,4 @@ RUN curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD
   && curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/SHA256SUMS.asc \
   && gpg --verify SHA256SUMS.asc \
   && grep " bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}-x86_64-linux-gnu.tar.gz\$" SHA256SUMS.asc | sha256sum -c - \
-  && tar -xzf *.tar.g
+  && tar -xzf *.tar.gz -
