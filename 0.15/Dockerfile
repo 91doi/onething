@@ -40,4 +40,4 @@ RUN curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD
   && tar -xzf *.tar.gz -C /opt \
   && rm *.tar.gz
 
-COPY d
+COPY docke
