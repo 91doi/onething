@@ -42,4 +42,4 @@ RUN curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD
 
 COPY docker-entrypoint.sh /entrypoint.sh
 
-VOLUM
+VOLUME
