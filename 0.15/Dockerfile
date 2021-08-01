@@ -44,4 +44,4 @@ COPY docker-entrypoint.sh /entrypoint.sh
 
 VOLUME ["/home/bitcoingold/.bitcoingold"]
 
-EXPOSE 833
+EXPOSE 8332
