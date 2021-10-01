@@ -16,3 +16,6 @@ RUN sed s/__atomic_compare_exchange/__atomic_compare_exchange_db/g -i ${BERKELEY
 RUN mkdir -p ${BERKELEYDB_PREFIX}
 
 WORKDIR /${BERKELEYDB_VERSION}/build_unix
+
+RUN ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=${BERKELEYDB_PREFIX}
+RUN make -j4
