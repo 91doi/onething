@@ -29,3 +29,4 @@ COPY --from=berkeleydb /opt /opt
 
 RUN apk --no-cache add autoconf
 RUN apk --no-cache add automake
+RUN apk --no-cache add boost-dev
