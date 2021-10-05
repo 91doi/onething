@@ -28,3 +28,4 @@ FROM alpine:3.9 as bitcoin-gold
 COPY --from=berkeleydb /opt /opt
 
 RUN apk --no-cache add autoconf
+RUN apk --no-cache add automake
