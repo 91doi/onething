@@ -41,3 +41,6 @@ RUN apk --no-cache add libsodium-dev
 RUN apk --no-cache add libtool
 RUN apk --no-cache add linux-headers
 RUN apk --no-cache add protobuf-dev
+RUN apk --no-cache add zeromq-dev
+
+RUN set -ex \
