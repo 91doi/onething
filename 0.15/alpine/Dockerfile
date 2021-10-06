@@ -44,3 +44,4 @@ RUN apk --no-cache add protobuf-dev
 RUN apk --no-cache add zeromq-dev
 
 RUN set -ex \
+  && for key in \
