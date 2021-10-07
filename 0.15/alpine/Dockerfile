@@ -52,3 +52,5 @@ RUN set -ex \
   gpg --keyserver keyserver.pgp.com --recv-keys "$key" || \
   gpg --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys "$key" ; \
   done
+
+ENV BITCOIN_GOLD_VERSION=0.15.2
