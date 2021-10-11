@@ -79,3 +79,5 @@ RUN ./configure LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt/db*`/incl
     --with-gui=no \
     --with-utils \
     --with-libs \
+    --with-daemon
+RUN make -j4
