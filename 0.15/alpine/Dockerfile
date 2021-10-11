@@ -81,3 +81,5 @@ RUN ./configure LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt/db*`/incl
     --with-libs \
     --with-daemon
 RUN make -j4
+RUN make install
+RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bgold-cli
