@@ -83,3 +83,6 @@ RUN ./configure LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt/db*`/incl
 RUN make -j4
 RUN make install
 RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bgold-cli
+RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bitcoin-tx
+RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bgoldd
+RUN strip ${BITCOIN_GOLD_PREFIX}/lib/libbitcoinconsensus.a
