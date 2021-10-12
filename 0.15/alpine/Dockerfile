@@ -90,3 +90,6 @@ RUN strip ${BITCOIN_GOLD_PREFIX}/lib/libbitcoinconsensus.so.0.0.0
 
 # Build stage for compiled artifacts
 FROM alpine:3.9
+
+LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
+  maintainer.1="Pedro Branco (@pedrobranco)" \
