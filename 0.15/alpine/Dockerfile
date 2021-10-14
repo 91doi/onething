@@ -96,3 +96,4 @@ LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
   maintainer.2="Rui Marinho (@ruimarinho)"
 
 RUN adduser -S bitcoingold
+RUN apk --no-cache add \
