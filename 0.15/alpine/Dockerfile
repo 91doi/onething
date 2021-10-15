@@ -101,3 +101,5 @@ RUN apk --no-cache add \
   boost-program_options \
   curl \
   libevent \
+  libressl \
+  libzmq \
