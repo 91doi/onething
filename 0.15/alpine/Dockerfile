@@ -104,3 +104,5 @@ RUN apk --no-cache add \
   libressl \
   libzmq \
   su-exec
+
+ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
