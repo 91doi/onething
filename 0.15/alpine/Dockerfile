@@ -112,3 +112,5 @@ ENV PATH=${BITCOIN_GOLD_PREFIX}/bin:$PATH
 
 COPY --from=bitcoin-gold /opt /opt
 COPY docker-entrypoint.sh /entrypoint.sh
+
+VOLUME ["/home/bitcoingold/.bitcoingold"]
