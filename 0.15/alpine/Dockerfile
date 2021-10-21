@@ -106,3 +106,4 @@ RUN apk --no-cache add \
   su-exec
 
 ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
+ENV BITCOIN_GOLD_VERSION=0.15.2
