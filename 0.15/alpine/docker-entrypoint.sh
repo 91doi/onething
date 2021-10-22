@@ -9,3 +9,6 @@ if [ $(echo "$1" | cut -c1) = "-" ]; then
 fi
 
 if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
+  mkdir -p "$BITCOIN_GOLD_DATA"
+  chmod 700 "$BITCOIN_GOLD_DATA"
+  chown -R bitcoingold "$BITCOIN_GOLD_DATA"
