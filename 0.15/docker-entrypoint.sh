@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-if [ $(echo "$1" | cut -c
+if [ $(echo "$1" | cut -c1
