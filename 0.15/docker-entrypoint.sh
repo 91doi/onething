@@ -1,4 +1,5 @@
 #!/bin/sh
 set -e
 
-if [ $(echo "$1" | cut -c1) = "-" ]; the
+if [ $(echo "$1" | cut -c1) = "-" ]; then
+ 
