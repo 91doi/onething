@@ -2,4 +2,4 @@
 set -e
 
 if [ $(echo "$1" | cut -c1) = "-" ]; then
-  echo "$0: a
+  echo "$0: ass
