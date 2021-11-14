@@ -2,4 +2,4 @@
 set -e
 
 if [ $(echo "$1" | cut -c1) = "-" ]; then
-  echo "$0: assuming arg
+  echo "$0: assuming argu
