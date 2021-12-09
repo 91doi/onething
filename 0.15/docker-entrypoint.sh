@@ -8,4 +8,4 @@ if [ $(echo "$1" | cut -c1) = "-" ]; then
 fi
 
 if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
-  mkdir -p "$BITC
+  mkdir -p "$BITCOI
