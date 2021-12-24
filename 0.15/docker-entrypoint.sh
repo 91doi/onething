@@ -12,4 +12,4 @@ if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
   chmod 700 "$BITCOIN_GOLD_DATA"
   chown -R bitcoingold "$BITCOIN_GOLD_DATA"
 
-  echo "$0: 
+  echo "$0: sett
