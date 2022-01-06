@@ -13,3 +13,4 @@ if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
   chown -R bitcoingold "$BITCOIN_GOLD_DATA"
 
   echo "$0: setting data directory to $BITCOIN_GOLD_DATA"
+
