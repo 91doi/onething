@@ -18,4 +18,4 @@ if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
 fi
 
 if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli" ] || [ "$1" = "bitcoin-tx" ]; then
- 
+  ec
