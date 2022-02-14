@@ -19,4 +19,4 @@ fi
 
 if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli" ] || [ "$1" = "bitcoin-tx" ]; then
   echo
-  exec gosu b
+  exec gosu bitco
