@@ -12,3 +12,6 @@ RUN useradd -r bitcoingold \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
   && set -ex \
   && for key in \
+    B42F6819007F00F88E364FD4036A9C25BF357DD4 \
+    38EE12EB597B4FC0 \
+  ; do \
