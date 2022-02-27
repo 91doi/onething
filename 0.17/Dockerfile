@@ -28,3 +28,6 @@ RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/dow
   && gpg --verify /usr/local/bin/gosu.asc \
   && rm /usr/local/bin/gosu.asc \
   && chmod +x /usr/local/bin/gosu
+
+ENV BITCOIN_GOLD_VERSION=0.17.3
+ENV BITCOIN_GOLD_FOLDER_VERSION=0.17.3
