@@ -31,3 +31,5 @@ RUN curl -o /usr/local/bin/gosu -fSL https://github.com/tianon/gosu/releases/dow
 
 ENV BITCOIN_GOLD_VERSION=0.17.3
 ENV BITCOIN_GOLD_FOLDER_VERSION=0.17.3
+ENV BITCOIN_GOLD_PREFIX=/opt/bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}
+ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
