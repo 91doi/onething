@@ -42,3 +42,5 @@ RUN curl -SLO https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD
   && rm *.tar.gz
 
 COPY docker-entrypoint.sh /entrypoint.sh
+
+VOLUME ["/home/bitcoingold/.bitcoingold"]
