@@ -9,3 +9,5 @@ RUN apk --no-cache add libressl
 
 ENV BERKELEYDB_VERSION=db-4.8.30.NC
 ENV BERKELEYDB_PREFIX=/opt/${BERKELEYDB_VERSION}
+
+RUN wget https://download.oracle.com/berkeley-db/${BERKELEYDB_VERSION}.tar.gz
