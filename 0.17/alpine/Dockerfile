@@ -18,3 +18,6 @@ RUN mkdir -p ${BERKELEYDB_PREFIX}
 WORKDIR /${BERKELEYDB_VERSION}/build_unix
 
 RUN ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=${BERKELEYDB_PREFIX}
+RUN make -j4
+RUN make install
+RUN rm -rf ${BERKELEYDB_PREFIX}/docs
