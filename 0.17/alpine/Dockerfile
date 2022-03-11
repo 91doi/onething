@@ -21,3 +21,6 @@ RUN ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=${BERKEL
 RUN make -j4
 RUN make install
 RUN rm -rf ${BERKELEYDB_PREFIX}/docs
+
+# Build stage for Bitcoin Gold
+FROM alpine:3.9 as bitcoin-gold
