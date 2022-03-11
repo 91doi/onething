@@ -24,3 +24,5 @@ RUN rm -rf ${BERKELEYDB_PREFIX}/docs
 
 # Build stage for Bitcoin Gold
 FROM alpine:3.9 as bitcoin-gold
+
+COPY --from=berkeleydb /opt /opt
