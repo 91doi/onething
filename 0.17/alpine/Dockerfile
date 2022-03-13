@@ -41,3 +41,4 @@ RUN apk --no-cache add libressl-dev
 RUN apk --no-cache add libsodium-dev
 RUN apk --no-cache add libtool
 RUN apk --no-cache add linux-headers
+RUN apk --no-cache add protobuf-dev
