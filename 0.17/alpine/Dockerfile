@@ -34,3 +34,5 @@ RUN apk --no-cache add boost-dev
 RUN apk --no-cache add build-base
 RUN apk --no-cache add chrpath
 RUN apk --no-cache add file
+RUN apk --no-cache add gnupg
+RUN apk --no-cache add libevent-dev
