@@ -31,3 +31,4 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
 RUN apk --no-cache add autoconf
 RUN apk --no-cache add automake
 RUN apk --no-cache add boost-dev
+RUN apk --no-cache add build-base
