@@ -26,3 +26,7 @@ RUN rm -rf ${BERKELEYDB_PREFIX}/docs
 FROM alpine:3.9 as bitcoin-gold
 
 COPY --from=berkeleydb /opt /opt
+
+RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
+RUN apk --no-cache add autoconf
+RUN apk --no-cache add automake
