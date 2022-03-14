@@ -45,3 +45,8 @@ RUN apk --no-cache add protobuf-dev
 RUN apk --no-cache add zeromq-dev
 RUN apk --no-cache add libb2-dev
 RUN set -ex \
+  && for key in \
+    38EE12EB597B4FC0 \
+  ; do \
+  gpg --keyserver ha.pool.sks-keyservers.net --recv-keys "$key" || \
+  gpg --keyserver pgp.mit.edu --recv-keys "$key" || \
