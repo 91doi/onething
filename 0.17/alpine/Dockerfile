@@ -57,3 +57,6 @@ RUN set -ex \
 ENV BITCOIN_GOLD_VERSION=0.17.3
 ENV BITCOIN_GOLD_FOLDER_VERSION=0.17.3
 ENV BITCOIN_GOLD_PREFIX=/opt/bitcoin-gold-${BITCOIN_GOLD_VERSION}
+
+RUN wget https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}.tar.gz
+RUN wget https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/SHA256SUMS.asc
