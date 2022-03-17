@@ -65,3 +65,5 @@ RUN grep " bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}.tar.gz\$" SHA256SUMS.asc 
 RUN tar -xzf *.tar.gz
 
 WORKDIR /bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}
+
+RUN sed -i '/AC_PREREQ/a\AR_FLAGS=cr' src/univalue/configure.ac
