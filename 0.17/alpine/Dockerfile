@@ -63,3 +63,5 @@ RUN wget https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERS
 RUN gpg --verify SHA256SUMS.asc
 RUN grep " bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}.tar.gz\$" SHA256SUMS.asc | sha256sum -c -
 RUN tar -xzf *.tar.gz
+
+WORKDIR /bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}
