@@ -67,3 +67,7 @@ RUN tar -xzf *.tar.gz
 WORKDIR /bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}
 
 RUN sed -i '/AC_PREREQ/a\AR_FLAGS=cr' src/univalue/configure.ac
+RUN sed -i '/AX_PROG_CC_FOR_BUILD/a\AR_FLAGS=cr' src/secp256k1/configure.ac
+RUN sed -i s:sys/fcntl.h:fcntl.h: src/compat.h
+RUN ./autogen.sh
+RUN ./configure --verbose LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt/db*`/include/ \
