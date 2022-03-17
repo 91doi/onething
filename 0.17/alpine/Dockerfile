@@ -61,3 +61,5 @@ ENV BITCOIN_GOLD_PREFIX=/opt/bitcoin-gold-${BITCOIN_GOLD_VERSION}
 RUN wget https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}.tar.gz
 RUN wget https://github.com/BTCGPU/BTCGPU/releases/download/v${BITCOIN_GOLD_VERSION}/SHA256SUMS.asc
 RUN gpg --verify SHA256SUMS.asc
+RUN grep " bitcoin-gold-${BITCOIN_GOLD_FOLDER_VERSION}.tar.gz\$" SHA256SUMS.asc | sha256sum -c -
+RUN tar -xzf *.tar.gz
