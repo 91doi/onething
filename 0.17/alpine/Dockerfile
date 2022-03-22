@@ -77,3 +77,6 @@ RUN ./configure --verbose LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt
     --disable-bench \
     --disable-ccache \
     --with-gui=no \
+    --with-utils \
+    --with-libs \
+    --with-daemon
