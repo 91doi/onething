@@ -74,3 +74,4 @@ RUN ./configure --verbose LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt
     --prefix=${BITCOIN_GOLD_PREFIX} \
     --mandir=/usr/share/man \
     --disable-tests \
+    --disable-bench \
