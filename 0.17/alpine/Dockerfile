@@ -75,3 +75,5 @@ RUN ./configure --verbose LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt
     --mandir=/usr/share/man \
     --disable-tests \
     --disable-bench \
+    --disable-ccache \
+    --with-gui=no \
