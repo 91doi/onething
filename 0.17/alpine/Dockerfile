@@ -80,3 +80,5 @@ RUN ./configure --verbose LDFLAGS=-L`ls -d /opt/db*`/lib/ CPPFLAGS=-I`ls -d /opt
     --with-utils \
     --with-libs \
     --with-daemon
+RUN make -j4
+RUN make install
