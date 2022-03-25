@@ -87,3 +87,5 @@ RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bitcoin-tx
 RUN strip ${BITCOIN_GOLD_PREFIX}/bin/bgoldd
 RUN strip ${BITCOIN_GOLD_PREFIX}/lib/libbitcoinconsensus.a
 RUN strip ${BITCOIN_GOLD_PREFIX}/lib/libbitcoinconsensus.so.0.0.0
+
+# Build stage for compiled artifacts
