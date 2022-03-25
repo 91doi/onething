@@ -99,3 +99,6 @@ RUN adduser -S bitcoingold
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk --no-cache add \
+  boost \
+  boost-program_options \
+  curl \
