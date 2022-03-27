@@ -104,3 +104,6 @@ RUN apk --no-cache add \
   curl \
   libevent \
   libressl \
+  libzmq \
+  libb2-dev \
+  su-exec
