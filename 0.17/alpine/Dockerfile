@@ -107,3 +107,5 @@ RUN apk --no-cache add \
   libzmq \
   libb2-dev \
   su-exec
+
+ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
