@@ -117,3 +117,5 @@ COPY --from=bitcoin-gold /opt /opt
 COPY docker-entrypoint.sh /entrypoint.sh
 
 VOLUME ["/home/bitcoingold/.bitcoingold"]
+
+EXPOSE 8332 8338 18332 18338 18444
