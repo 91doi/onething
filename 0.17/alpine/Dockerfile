@@ -112,3 +112,5 @@ ENV BITCOIN_GOLD_DATA=/home/bitcoingold/.bitcoingold
 ENV BITCOIN_GOLD_VERSION=0.17.3
 ENV BITCOIN_GOLD_PREFIX=/opt/bitcoin-gold-${BITCOIN_GOLD_VERSION}
 ENV PATH=${BITCOIN_GOLD_PREFIX}/bin:$PATH
+
+COPY --from=bitcoin-gold /opt /opt
