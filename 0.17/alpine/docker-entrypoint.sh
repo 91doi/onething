@@ -22,3 +22,5 @@ if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli" ] || [ "$1" = "bitcoin-tx" ]; the
   echo
   exec su-exec bitcoingold "$@"
 fi
+
+echo
