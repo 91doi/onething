@@ -24,3 +24,4 @@ if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli" ] || [ "$1" = "bitcoin-tx" ]; the
 fi
 
 echo
+exec "$@"
