@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-if [ $(echo
+if [ $(echo "$
