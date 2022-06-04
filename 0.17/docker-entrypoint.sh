@@ -7,4 +7,4 @@ if [ $(echo "$1" | cut -c1) = "-" ]; then
   set -- bgoldd "$@"
 fi
 
-if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd
+if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" 
