@@ -15,3 +15,4 @@ if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
   echo "$0: setting data directory to $BITCOIN_GOLD_DATA"
 
   set -- "$@" -datadir="$BITCOIN_GOLD_DATA"
+fi
