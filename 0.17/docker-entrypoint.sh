@@ -17,4 +17,4 @@ if [ $(echo "$1" | cut -c1) = "-" ] || [ "$1" = "bgoldd" ]; then
   set -- "$@" -datadir="$BITCOIN_GOLD_DATA"
 fi
 
-if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-c
+if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli
