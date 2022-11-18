@@ -22,4 +22,4 @@ if [ "$1" = "bgoldd" ] || [ "$1" = "bgold-cli" ] || [ "$1" = "bitcoin-tx" ]; the
   exec gosu bitcoingold "$@"
 fi
 
-ec
+ech
