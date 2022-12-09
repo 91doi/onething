@@ -19,3 +19,5 @@ Bitcoin Gold is a fork of the Bitcoin blockchain. At block 491407, Bitcoin Gold 
 ## Usage
 
 ### How to use this image
+
+This image contains the main binaries from the Bitcoin Gold project - `bgoldd`, `bgold-cli` and `bitcoin-tx`. It behaves like a binary, so you can pass any arguments to the image and they will be forwarded to the `bgoldd` binary:
