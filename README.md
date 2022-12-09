@@ -15,3 +15,5 @@ A Bitcoin Gold docker image.
 ## What is Bitcoin Gold?
 
 Bitcoin Gold is a fork of the Bitcoin blockchain. At block 491407, Bitcoin Gold miners began creating blocks with a new proof-of-work algorithm, and this caused a bifurcation of the Bitcoin blockchain. The new branch is a distinct blockchain with the same transaction history as Bitcoin up until the fork, but then diverges from it. As a result of this process, a new cryptocurrency was born. Learn more about [Bitcoin Gold](https://bitcoingold.org).
+
+## Usage
