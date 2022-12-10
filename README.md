@@ -26,3 +26,5 @@ This image contains the main binaries from the Bitcoin Gold project - `bgoldd`, 
 ❯ docker run --rm -it uphold/bitcoin-gold \
   -printtoconsole \
   -regtest=1 \
+  -rpcallowip=172.17.0.0/16 \
+  -rpcpassword=bar \
