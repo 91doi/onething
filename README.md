@@ -25,3 +25,4 @@ This image contains the main binaries from the Bitcoin Gold project - `bgoldd`, 
 ```sh
 ❯ docker run --rm -it uphold/bitcoin-gold \
   -printtoconsole \
+  -regtest=1 \
