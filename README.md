@@ -32,3 +32,5 @@ This image contains the main binaries from the Bitcoin Gold project - `bgoldd`, 
 ```
 
 By default, `bgoldd` will run as user `bitcoingold` for security reasons and with its default data dir (`~/.bitcoingold/`). If you'd like to customize where `bitcoin-gold` stores its data, you must use the `BITCOIN_GOLD_DATA` environment variable. The directory will be automatically created with the correct permissions for the `bitcoingold` user and `bitcoin-gold` automatically configured to use it.
+
+```sh
