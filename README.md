@@ -38,3 +38,7 @@ By default, `bgoldd` will run as user `bitcoingold` for security reasons and wit
   -printtoconsole \
   -regtest=1
 ```
+
+You can also mount a directory it in a volume under `/home/bitcoingold/.bitcoingold` in case you want to access it on the host:
+
+```sh
