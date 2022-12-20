@@ -42,3 +42,5 @@ By default, `bgoldd` will run as user `bitcoingold` for security reasons and wit
 You can also mount a directory it in a volume under `/home/bitcoingold/.bitcoingold` in case you want to access it on the host:
 
 ```sh
+❯ docker run -v ${PWD}/data:/home/bitcoingold/.bitcoingold -it --rm uphold/bitcoin-gold \
+  -printtoconsole \
