@@ -35,3 +35,5 @@ By default, `bgoldd` will run as user `bitcoingold` for security reasons and wit
 
 ```sh
 ❯ docker run --env BITCOIN_GOLD_DATA=/var/lib/bgold --rm -it uphold/bitcoin-gold \
+  -printtoconsole \
+  -regtest=1
