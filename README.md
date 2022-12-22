@@ -44,3 +44,5 @@ You can also mount a directory it in a volume under `/home/bitcoingold/.bitcoing
 ```sh
 ❯ docker run -v ${PWD}/data:/home/bitcoingold/.bitcoingold -it --rm uphold/bitcoin-gold \
   -printtoconsole \
+  -regtest=1
+```
