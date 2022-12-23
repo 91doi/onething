@@ -46,3 +46,5 @@ You can also mount a directory it in a volume under `/home/bitcoingold/.bitcoing
   -printtoconsole \
   -regtest=1
 ```
+
+You can optionally create a service using `docker-compose`:
