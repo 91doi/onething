@@ -51,3 +51,5 @@ You can optionally create a service using `docker-compose`:
 
 ```yml
 bitcoin-gold:
+  image: uphold/bitcoin-gold
+  command:
