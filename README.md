@@ -50,3 +50,4 @@ You can also mount a directory it in a volume under `/home/bitcoingold/.bitcoing
 You can optionally create a service using `docker-compose`:
 
 ```yml
+bitcoin-gold:
