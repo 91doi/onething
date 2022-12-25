@@ -55,3 +55,4 @@ bitcoin-gold:
   command:
     -printtoconsole
     -regtest=1
+```
