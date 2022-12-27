@@ -56,3 +56,5 @@ bitcoin-gold:
     -printtoconsole
     -regtest=1
 ```
+
+### Using RPC to interact with the daemon
