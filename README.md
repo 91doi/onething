@@ -58,3 +58,5 @@ bitcoin-gold:
 ```
 
 ### Using RPC to interact with the daemon
+
+There are two communications methods to interact with a running Bitcoin Gold daemon.
