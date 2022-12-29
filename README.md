@@ -68,3 +68,5 @@ The second option is making a remote procedure call using a username and passwor
 #### Using cookie-based local authentication
 
 Start by launching the Bitcoin Gold daemon:
+
+```sh
