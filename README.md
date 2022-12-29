@@ -66,3 +66,5 @@ The first one is using a cookie-based local authentication. It doesn't require a
 The second option is making a remote procedure call using a username and password combination. This has the advantage of not requiring local machine access, but in order to keep your credentials safe you should use the newer `rpcauth` authentication mechanism.
 
 #### Using cookie-based local authentication
+
+Start by launching the Bitcoin Gold daemon:
