@@ -74,3 +74,5 @@ Start by launching the Bitcoin Gold daemon:
   -printtoconsole \
   -regtest=1
 ```
+
+Then, inside the running `bitcoin-gold-server` container, locally execute the query to the daemon using `bgold-cli`:
