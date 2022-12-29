@@ -70,3 +70,7 @@ The second option is making a remote procedure call using a username and passwor
 Start by launching the Bitcoin Gold daemon:
 
 ```sh
+❯ docker run --rm --name bitcoin-gold-server -it uphold/bitcoin-gold \
+  -printtoconsole \
+  -regtest=1
+```
