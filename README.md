@@ -78,3 +78,4 @@ Start by launching the Bitcoin Gold daemon:
 Then, inside the running `bitcoin-gold-server` container, locally execute the query to the daemon using `bgold-cli`:
 
 ```sh
+❯ docker exec --user bitcoingold bitcoin-gold-server bgold-cli -regtest getmininginfo
