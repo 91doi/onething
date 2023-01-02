@@ -79,3 +79,5 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
 
 ```sh
 ❯ docker exec --user bitcoingold bitcoin-gold-server bgold-cli -regtest getmininginfo
+
+{
