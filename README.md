@@ -81,3 +81,7 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
 ❯ docker exec --user bitcoingold bitcoin-gold-server bgold-cli -regtest getmininginfo
 
 {
+  "blocks": 0,
+  "currentblocksize": 0,
+  "currentblockweight": 0,
+  "currentblocktx": 0,
