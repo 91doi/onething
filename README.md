@@ -85,3 +85,4 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
   "currentblocksize": 0,
   "currentblockweight": 0,
   "currentblocktx": 0,
+  "difficulty": 4.656542373906925e-10,
