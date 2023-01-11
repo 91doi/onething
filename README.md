@@ -90,3 +90,5 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
   "networkhashps": 0,
   "pooledtx": 0,
   "chain": "regtest"
+}
+```
