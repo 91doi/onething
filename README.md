@@ -92,3 +92,5 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
   "chain": "regtest"
 }
 ```
+
+In the background, `bgold-cli` read the information automatically from `/home/bitcoingold/.bitcoingold/regtest/.cookie`. In production, the path would not contain the regtest part.
