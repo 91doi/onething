@@ -94,3 +94,5 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
 ```
 
 In the background, `bgold-cli` read the information automatically from `/home/bitcoingold/.bitcoingold/regtest/.cookie`. In production, the path would not contain the regtest part.
+
+#### Using rpcauth for remote authentication
