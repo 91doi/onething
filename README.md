@@ -98,3 +98,7 @@ In the background, `bgold-cli` read the information automatically from `/home/bi
 #### Using rpcauth for remote authentication
 
 Before setting up remote authentication, you will need to generate the `rpcauth` line that will hold the credentials for the Bitcoin Gold daemon. You can either do this yourself by constructing the line with the format `<user>:<salt>$<hash>` or use the official `rpcuser.py` script to generate this line for you, including a random password that is printed to the console.
+
+Example:
+
+```sh
