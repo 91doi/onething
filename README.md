@@ -96,3 +96,5 @@ Then, inside the running `bitcoin-gold-server` container, locally execute the qu
 In the background, `bgold-cli` read the information automatically from `/home/bitcoingold/.bitcoingold/regtest/.cookie`. In production, the path would not contain the regtest part.
 
 #### Using rpcauth for remote authentication
+
+Before setting up remote authentication, you will need to generate the `rpcauth` line that will hold the credentials for the Bitcoin Gold daemon. You can either do this yourself by constructing the line with the format `<user>:<salt>$<hash>` or use the official `rpcuser.py` script to generate this line for you, including a random password that is printed to the console.
