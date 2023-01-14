@@ -106,3 +106,4 @@ Example:
 
 String to be appended to bitcoin.conf:
 rpcauth=foo:7d9ba5ae63c3d4dc30583ff4fe65a67e$9e3634e81c11659e3de036d0bf88f89cd169c1039e6e09607562d54765c649cc
+Your password:
