@@ -102,3 +102,4 @@ Before setting up remote authentication, you will need to generate the `rpcauth`
 Example:
 
 ```sh
+❯ curl -sSL https://raw.githubusercontent.com/BTCGPU/BTCGPU/master/share/rpcuser/rpcuser.py | python - <username>
