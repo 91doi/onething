@@ -109,3 +109,5 @@ rpcauth=foo:7d9ba5ae63c3d4dc30583ff4fe65a67e$9e3634e81c11659e3de036d0bf88f89cd16
 Your password:
 qDDZdeQ5vw9XXFeVnXT4PZ--tGN2xNjjR4nrtyszZx0=
 ```
+
+Note that for each run, even if the username remains the same, the output will be always different as a new salt and password are generated.
