@@ -113,3 +113,7 @@ qDDZdeQ5vw9XXFeVnXT4PZ--tGN2xNjjR4nrtyszZx0=
 Note that for each run, even if the username remains the same, the output will be always different as a new salt and password are generated.
 
 Now that you have your credentials, you need to start the Bitcoin Gold daemon with the `-rpcauth` option. Alternatively, you could append the line to a `bitcoin.conf` file and mount it on the container.
+
+Let's opt for the Docker way:
+
+```sh
