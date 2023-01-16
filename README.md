@@ -117,3 +117,5 @@ Now that you have your credentials, you need to start the Bitcoin Gold daemon wi
 Let's opt for the Docker way:
 
 ```sh
+❯ docker run --rm --name bitcoin-gold-server -it uphold/bitcoin-gold \
+  -printtoconsole \
