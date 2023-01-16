@@ -119,3 +119,5 @@ Let's opt for the Docker way:
 ```sh
 ❯ docker run --rm --name bitcoin-gold-server -it uphold/bitcoin-gold \
   -printtoconsole \
+  -regtest=1 \
+  -rpcallowip=172.17.0.0/16 \
