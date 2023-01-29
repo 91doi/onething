@@ -132,3 +132,5 @@ Two important notes:
 You can now connect via `bgold-cli` or any other [compatible client](https://github.com/uphold/bitcoin-gold). You will still have to define a username and password when connecting to the Bitcoin Gold RPC server.
 
 To avoid any confusion about whether or not a remote call is being made, let's spin up another container to execute `bgold-cli` and connect it via the Docker network using the password generated above:
+
+```sh
