@@ -128,3 +128,5 @@ Two important notes:
 
 1. Some shells require escaping the rpcauth line (e.g. zsh), as shown above.
 2. It is now perfectly fine to pass the rpcauth line as a command line argument. Unlike `-rpcpassword`, the content is hashed so even if the arguments would be exposed, they would not allow the attacker to get the actual password.
+
+You can now connect via `bgold-cli` or any other [compatible client](https://github.com/uphold/bitcoin-gold). You will still have to define a username and password when connecting to the Bitcoin Gold RPC server.
