@@ -135,3 +135,6 @@ To avoid any confusion about whether or not a remote call is being made, let's s
 
 ```sh
 ❯ docker run --link bitcoin-gold-server --rm uphold/bitcoin-gold bgold-cli -rpcconnect=bitcoin-gold-server -regtest -rpcuser=foo -rpcpassword='j1DuzF7QRUp-iSXjgewO9T_WT1Qgrtz_XWOHCMn_O-Y=' getmininginfo
+
+{
+  "blocks": 0,
