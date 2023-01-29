@@ -122,3 +122,4 @@ Let's opt for the Docker way:
   -regtest=1 \
   -rpcallowip=172.17.0.0/16 \
   -rpcauth='foo:e1fcea9fb59df8b0388f251984fe85$26431097d48c5b6047df8dee64f387f63835c01a2a463728ad75087d0133b8e6'
+```
