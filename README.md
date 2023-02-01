@@ -139,3 +139,6 @@ To avoid any confusion about whether or not a remote call is being made, let's s
 {
   "blocks": 0,
   "currentblocksize": 0,
+  "currentblockweight": 0,
+  "currentblocktx": 0,
+  "difficulty": 4.656542373906925e-10,
