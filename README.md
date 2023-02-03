@@ -143,3 +143,4 @@ To avoid any confusion about whether or not a remote call is being made, let's s
   "currentblocktx": 0,
   "difficulty": 4.656542373906925e-10,
   "errors": "",
+  "networkhashps": 0,
