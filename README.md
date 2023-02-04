@@ -145,3 +145,5 @@ To avoid any confusion about whether or not a remote call is being made, let's s
   "errors": "",
   "networkhashps": 0,
   "pooledtx": 0,
+  "chain": "regtest"
+}
