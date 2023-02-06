@@ -150,3 +150,5 @@ To avoid any confusion about whether or not a remote call is being made, let's s
 ```
 
 Done!
+
+## Images
