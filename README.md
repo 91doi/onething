@@ -154,3 +154,7 @@ Done!
 ## Images
 
 The `uphold/bitcoin-gold` image comes in multiple flavors:
+
+### `uphold/bitcoin-gold:latest`
+
+Points to the latest release available of Bitcoin Gold. Occasionally pre-release versions will be included.
