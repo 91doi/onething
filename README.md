@@ -160,3 +160,7 @@ The `uphold/bitcoin-gold` image comes in multiple flavors:
 Points to the latest release available of Bitcoin Gold. Occasionally pre-release versions will be included.
 
 ### `uphold/bitcoin-gold:<version>`
+
+Based on a slim Debian image, targets a specific version branch or release of Bitcoin Gold.
+
+### `uphold/bitcoin-gold:<version>-alpine`
