@@ -164,3 +164,5 @@ Points to the latest release available of Bitcoin Gold. Occasionally pre-release
 Based on a slim Debian image, targets a specific version branch or release of Bitcoin Gold.
 
 ### `uphold/bitcoin-gold:<version>-alpine`
+
+Based on Alpine Linux with Berkeley DB 4.8 (cross-compatible build), targets a specific version branch or release of Bitcoin Gold.
