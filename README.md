@@ -166,3 +166,7 @@ Based on a slim Debian image, targets a specific version branch or release of Bi
 ### `uphold/bitcoin-gold:<version>-alpine`
 
 Based on Alpine Linux with Berkeley DB 4.8 (cross-compatible build), targets a specific version branch or release of Bitcoin Gold.
+
+## Supported Docker versions
+
+This image is officially supported on Docker version 17.09.0-ce, with support for older versions provided on a best-effort basis.
