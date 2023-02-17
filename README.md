@@ -172,3 +172,5 @@ Based on Alpine Linux with Berkeley DB 4.8 (cross-compatible build), targets a s
 This image is officially supported on Docker version 17.09.0-ce, with support for older versions provided on a best-effort basis.
 
 ## License
+
+[License information](https://github.com/BTCGPU/BTCGPU/blob/master/COPYING) for the software contained in this image.
