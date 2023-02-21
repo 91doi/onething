@@ -174,3 +174,5 @@ This image is officially supported on Docker version 17.09.0-ce, with support fo
 ## License
 
 [License information](https://github.com/BTCGPU/BTCGPU/blob/master/COPYING) for the software contained in this image.
+
+[License information](https://github.com/uphold/docker-bitcoin-gold/blob/master/LICENSE) for the [uphold/bitcoin-gold][docker-hub-url] docker project.
