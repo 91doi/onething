@@ -181,3 +181,4 @@ This image is officially supported on Docker version 17.09.0-ce, with support fo
 [docker-layers-image]: https://img.shields.io/imagelayers/layers/uphold/bitcoin-gold/latest.svg?style=flat-square
 [docker-pulls-image]: https://img.shields.io/docker/pulls/uphold/bitcoin-gold.svg?style=flat-square
 [docker-size-image]: https://img.shields.io/imagelayers/image-size/uphold/bitcoin-gold/latest.svg?style=flat-square
+[docker-stars-image]: https://img.shields.io/docker/stars/uphold/bitcoin-gold.svg?style=flat-square
